@@ -5,7 +5,7 @@ public class Runner
         String [][] face = new String[5][8];
         JackOLantern face1 = new JackOLantern(face);
 
-        face1.fill("x");
+        face1.fill("X");
         face1.edit(" ",0,0);
         face1.edit(" ",4,7);
         face1.edit(" ",0,7);
